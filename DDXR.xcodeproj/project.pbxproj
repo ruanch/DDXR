@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010B59B91F33030200B8C252 /* DDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010B59B81F33030200B8C252 /* DDLoginViewController.m */; };
+		010B59BC1F33034300B8C252 /* DDLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 010B59BB1F33034300B8C252 /* DDLoginView.m */; };
+		010B59BF1F3303D000B8C252 /* DDLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 010B59BE1F3303D000B8C252 /* DDLoginViewModel.m */; };
+		011201FF1F33173600734C95 /* FBKVOController+MHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 011201FE1F33173600734C95 /* FBKVOController+MHExtension.m */; };
 		011AA6361E557B2B00E0262E /* MyBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 011AA6181E557B2B00E0262E /* MyBaseLayout.m */; };
 		011AA6371E557B2B00E0262E /* MyDimeScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 011AA61A1E557B2B00E0262E /* MyDimeScale.m */; };
 		011AA6381E557B2B00E0262E /* MyFloatLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 011AA61C1E557B2B00E0262E /* MyFloatLayout.m */; };
@@ -180,6 +184,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		010B59B71F33030200B8C252 /* DDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLoginViewController.h; sourceTree = "<group>"; };
+		010B59B81F33030200B8C252 /* DDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLoginViewController.m; sourceTree = "<group>"; };
+		010B59BA1F33034300B8C252 /* DDLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLoginView.h; sourceTree = "<group>"; };
+		010B59BB1F33034300B8C252 /* DDLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLoginView.m; sourceTree = "<group>"; };
+		010B59BD1F3303D000B8C252 /* DDLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLoginViewModel.h; sourceTree = "<group>"; };
+		010B59BE1F3303D000B8C252 /* DDLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLoginViewModel.m; sourceTree = "<group>"; };
+		011201FD1F33173600734C95 /* FBKVOController+MHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBKVOController+MHExtension.h"; sourceTree = "<group>"; };
+		011201FE1F33173600734C95 /* FBKVOController+MHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBKVOController+MHExtension.m"; sourceTree = "<group>"; };
 		011AA6171E557B2B00E0262E /* MyBaseLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBaseLayout.h; sourceTree = "<group>"; };
 		011AA6181E557B2B00E0262E /* MyBaseLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBaseLayout.m; sourceTree = "<group>"; };
 		011AA6191E557B2B00E0262E /* MyDimeScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDimeScale.h; sourceTree = "<group>"; };
@@ -556,6 +568,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		010B59AC1F3302D200B8C252 /* LOGIN(登录) */ = {
+			isa = PBXGroup;
+			children = (
+				010B59AD1F3302D200B8C252 /* API(请求管理) */,
+				010B59AE1F3302D200B8C252 /* Controller(控制器) */,
+				010B59B11F3302D200B8C252 /* DataManager(数据管理器) */,
+				010B59B21F3302D200B8C252 /* Model(模型) */,
+				010B59B31F3302D200B8C252 /* Other(其它) */,
+				010B59B41F3302D200B8C252 /* View(视图） */,
+				010B59B51F3302D200B8C252 /* ViewModel(VM模型) */,
+			);
+			path = "LOGIN(登录)";
+			sourceTree = "<group>";
+		};
+		010B59AD1F3302D200B8C252 /* API(请求管理) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "API(请求管理)";
+			sourceTree = "<group>";
+		};
+		010B59AE1F3302D200B8C252 /* Controller(控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				010B59B71F33030200B8C252 /* DDLoginViewController.h */,
+				010B59B81F33030200B8C252 /* DDLoginViewController.m */,
+			);
+			path = "Controller(控制器)";
+			sourceTree = "<group>";
+		};
+		010B59B11F3302D200B8C252 /* DataManager(数据管理器) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "DataManager(数据管理器)";
+			sourceTree = "<group>";
+		};
+		010B59B21F3302D200B8C252 /* Model(模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model(模型)";
+			sourceTree = "<group>";
+		};
+		010B59B31F3302D200B8C252 /* Other(其它) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Other(其它)";
+			sourceTree = "<group>";
+		};
+		010B59B41F3302D200B8C252 /* View(视图） */ = {
+			isa = PBXGroup;
+			children = (
+				010B59BA1F33034300B8C252 /* DDLoginView.h */,
+				010B59BB1F33034300B8C252 /* DDLoginView.m */,
+			);
+			path = "View(视图）";
+			sourceTree = "<group>";
+		};
+		010B59B51F3302D200B8C252 /* ViewModel(VM模型) */ = {
+			isa = PBXGroup;
+			children = (
+				010B59BD1F3303D000B8C252 /* DDLoginViewModel.h */,
+				010B59BE1F3303D000B8C252 /* DDLoginViewModel.m */,
+			);
+			path = "ViewModel(VM模型)";
+			sourceTree = "<group>";
+		};
 		011AA6161E557B2A00E0262E /* FlowLayout(流式布局) */ = {
 			isa = PBXGroup;
 			children = (
@@ -801,6 +882,7 @@
 		0144AA8A1E45B1950000A3B4 /* Sections(具体单元） */ = {
 			isa = PBXGroup;
 			children = (
+				010B59AC1F3302D200B8C252 /* LOGIN(登录) */,
 				011AA6431E557C8B00E0262E /* Notice(公告) */,
 				0195A3081E4853DD00A98F9D /* SEARCH(查询) */,
 				0144AA9A1E45B2080000A3B4 /* HOME(首页) */,
@@ -1509,6 +1591,8 @@
 		01BD4B221E515A14006AD6FE /* FBKVOController(KVO监听器) */ = {
 			isa = PBXGroup;
 			children = (
+				011201FD1F33173600734C95 /* FBKVOController+MHExtension.h */,
+				011201FE1F33173600734C95 /* FBKVOController+MHExtension.m */,
 				01BD4B231E515A14006AD6FE /* FBKVOController.h */,
 				01BD4B241E515A14006AD6FE /* FBKVOController.m */,
 				01BD4B251E515A14006AD6FE /* KVOController.h */,
@@ -2061,6 +2145,7 @@
 				01BD4C7D1E518BC6006AD6FE /* FBAllocationTrackerManager.mm in Sources */,
 				01BD4C871E518BC6006AD6FE /* FBMemoryProfilerViewController.m in Sources */,
 				01BD4ABB1E4AB8A0006AD6FE /* UIImage+btnColor.m in Sources */,
+				010B59BC1F33034300B8C252 /* DDLoginView.m in Sources */,
 				01BD4C991E518BC6006AD6FE /* FBRetainCycleDetector.mm in Sources */,
 				0144AB021E45B6E90000A3B4 /* GTApiProxy.m in Sources */,
 				01BD4AC31E4ABA1F006AD6FE /* JYFrostedProgressHUD.m in Sources */,
@@ -2074,10 +2159,12 @@
 				01BD4CA71E518BC6006AD6FE /* FBIvarReference.m in Sources */,
 				01BD4C961E518BC6006AD6FE /* README.md in Sources */,
 				011AA6371E557B2B00E0262E /* MyDimeScale.m in Sources */,
+				010B59BF1F3303D000B8C252 /* DDLoginViewModel.m in Sources */,
 				0144AAA81E45B2800000A3B4 /* DDHomePageCellTableViewCell.m in Sources */,
 				0144AA6D1E45A78E0000A3B4 /* AppDelegate.m in Sources */,
 				0144AAA31E45B2470000A3B4 /* DDHomePageViewController.m in Sources */,
 				0195A2FB1E484CF200A98F9D /* YTKChainRequestAgent.m in Sources */,
+				011201FF1F33173600734C95 /* FBKVOController+MHExtension.m in Sources */,
 				01BD4C981E518BC6006AD6FE /* FBNodeEnumerator.mm in Sources */,
 				01BD4C9A1E518BC6006AD6FE /* FBRetainCycleUtils.m in Sources */,
 				01BD4C7E1E518BC6006AD6FE /* FBAllocationTrackerSummary.m in Sources */,
@@ -2137,6 +2224,7 @@
 				0144AB081E45B6E90000A3B4 /* GTLogger.m in Sources */,
 				01BD4B201E4C749B006AD6FE /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				0195A2FC1E484CF200A98F9D /* YTKNetworkAgent.m in Sources */,
+				010B59B91F33030200B8C252 /* DDLoginViewController.m in Sources */,
 				01BD4B0C1E4B21E6006AD6FE /* FMDatabaseQueue.m in Sources */,
 				01BD4A7E1E49C90F006AD6FE /* UIView+JHUD.m in Sources */,
 				01BD4CA91E518BC6006AD6FE /* fishhook.c in Sources */,

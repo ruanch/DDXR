@@ -4,114 +4,28 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
          <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DDXR/Sections(&#x5177;&#x4f53;&#x5355;&#x5143;&#xff09;/HOME(&#x9996;&#x9875;)/DataManager(&#x6570;&#x636e;&#x7ba1;&#x7406;&#x5668;)/DDHomePageDataManager.m"
-            timestampString = "507889223.986739"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "-requestDataWhenSuccess:fail:"
-            landmarkType = "7">
+            scope = "0"
+            stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DDXR/Sections(&#x5177;&#x4f53;&#x5355;&#x5143;&#xff09;/HOME(&#x9996;&#x9875;)/DataManager(&#x6570;&#x636e;&#x7ba1;&#x7406;&#x5668;)/DDHomePageDataManager.m"
-            timestampString = "507889223.986739"
+            filePath = "DDXR/Sections(&#x5177;&#x4f53;&#x5355;&#x5143;&#xff09;/LOGIN(&#x767b;&#x5f55;)/ViewModel(VM&#x6a21;&#x578b;)/DDLoginViewModel.m"
+            timestampString = "523443519.32472"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "-managerCallAPIDidSuccess:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DDXR/Sections(&#x5177;&#x4f53;&#x5355;&#x5143;&#xff09;/HOME(&#x9996;&#x9875;)/Controller(&#x63a7;&#x5236;&#x5668;)/DDHomePageViewController.m"
-            timestampString = "507888700.781328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "-fetchRecipeData"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DDXR/Sections(&#x5177;&#x4f53;&#x5355;&#x5143;&#xff09;/HOME(&#x9996;&#x9875;)/Controller(&#x63a7;&#x5236;&#x5668;)/DDHomePageViewController.m"
-            timestampString = "507888703.461279"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "-fetchRecipeData"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DDXR/Sections(&#x5177;&#x4f53;&#x5355;&#x5143;&#xff09;/HOME(&#x9996;&#x9875;)/DataManager(&#x6570;&#x636e;&#x7ba1;&#x7406;&#x5668;)/DDHomePageDataManager.m"
-            timestampString = "507889967.903786"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "-managerCallAPIDidFailed:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DDXR/General(&#x91cd;&#x7528;&#xff09;/NetWork(&#x7f51;&#x7edc;&#xff09;/Components/Components/GTApiProxy.m"
-            timestampString = "507889772.215362"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "160"
-            endingLineNumber = "160"
-            landmarkName = "-callApiWithRequest:parameters:success:fail:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DDXR/Sections(&#x5177;&#x4f53;&#x5355;&#x5143;&#xff09;/HOME(&#x9996;&#x9875;)/DataManager(&#x6570;&#x636e;&#x7ba1;&#x7406;&#x5668;)/DDHomePageDataManager.m"
-            timestampString = "507889967.903786"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "-generateRecipeWithResponseData:"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-init"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -121,13 +35,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DDXR/AppDelegate.m"
-            timestampString = "508919214.068619"
+            filePath = "DDXR/Sections(&#x5177;&#x4f53;&#x5355;&#x5143;&#xff09;/LOGIN(&#x767b;&#x5f55;)/ViewModel(VM&#x6a21;&#x578b;)/DDLoginViewModel.m"
+            timestampString = "523443540.058142"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "-application:didFinishLaunchingWithOptions:"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-init"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -137,13 +51,92 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DDXR/Sections(&#x5177;&#x4f53;&#x5355;&#x5143;&#xff09;/SEARCH(&#x67e5;&#x8be2;)/View(&#x89c6;&#x56fe;&#xff09;/DDSearchTableView.m"
-            timestampString = "508661188.510318"
+            filePath = "DDXR/Sections(&#x5177;&#x4f53;&#x5355;&#x5143;&#xff09;/LOGIN(&#x767b;&#x5f55;)/ViewModel(VM&#x6a21;&#x578b;)/DDLoginViewModel.m"
+            timestampString = "523443655.609817"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "-init"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DDXR/Sections(&#x5177;&#x4f53;&#x5355;&#x5143;&#xff09;/LOGIN(&#x767b;&#x5f55;)/ViewModel(VM&#x6a21;&#x578b;)/DDLoginViewModel.m"
+            timestampString = "523444296.130727"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-init"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__24-[DDLoginViewModel init]_block_invoke_2"
+                  moduleName = "DDXR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikocai/Downloads/github/DDXR/Sections(%E5%85%B7%E4%BD%93%E5%8D%95%E5%85%83%EF%BC%89/LOGIN(%E7%99%BB%E5%BD%95)/ViewModel(VM%E6%A8%A1%E5%9E%8B)/DDLoginViewModel.m"
+                  timestampString = "523444296.441585"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "74">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_"
+                  moduleName = "DDXR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikocai/Downloads/github/DDXR/Sections(%E5%85%B7%E4%BD%93%E5%8D%95%E5%85%83%EF%BC%89/LOGIN(%E7%99%BB%E5%BD%95)/ViewModel(VM%E6%A8%A1%E5%9E%8B)/DDLoginViewModel.m"
+                  timestampString = "523444296.443395"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_"
+                  moduleName = "DDXR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikocai/Downloads/github/DDXR/Sections(%E5%85%B7%E4%BD%93%E5%8D%95%E5%85%83%EF%BC%89/LOGIN(%E7%99%BB%E5%BD%95)/ViewModel(VM%E6%A8%A1%E5%9E%8B)/DDLoginViewModel.m"
+                  timestampString = "523444296.444863"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DDXR/Sections(&#x5177;&#x4f53;&#x5355;&#x5143;&#xff09;/LOGIN(&#x767b;&#x5f55;)/Controller(&#x63a7;&#x5236;&#x5668;)/DDLoginViewController.m"
+            timestampString = "523445256.930321"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "-bindViewModelToChangeView"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

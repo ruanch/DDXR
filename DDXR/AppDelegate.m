@@ -12,6 +12,7 @@
 #import "DDHomePageViewController.h"
 #import "DDSearchViewController.h"
 #import "DDNoticeViewController.h"
+#import "DDLoginViewController.h"
 #import "YTKNetworkConfig.h"
 
 #if DEBUG
@@ -67,7 +68,8 @@
     config.baseUrl = @"http://apis.juhe.cn";
     
     //DDSearchViewController *vc = [[DDSearchViewController alloc] init];
-    DDNoticeViewController *vc = [[DDNoticeViewController alloc] init];
+    //DDNoticeViewController *vc = [[DDNoticeViewController alloc] init];
+    DDLoginViewController *vc = [[DDLoginViewController alloc] init];
     
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
